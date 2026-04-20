@@ -218,10 +218,10 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [projects, tags]
+  enabled: [categories, tags]
   layouts:
-    project: project
+    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
-    project: /projects/:name/
+    category: /categories/:name/
